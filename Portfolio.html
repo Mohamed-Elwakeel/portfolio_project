@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Mohamed Hassan - Personal Portfolio HTML</title>
     </head>
-    <body background="image1.jpg">
-        <h1>MY portfolio</h1>
+
+    <body>
+        <h1 class="headline">MY Portfolio</h1>
         <h2>For HTML CheckPoint</h2>
-        <h3> <nav dir="rtl">
+        <h3> <nav>
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Work</a>
@@ -14,28 +19,24 @@
             <a href="">Contact</a>
 
         </nav></h3>
-        <Form>
+        <form>
             <label>Work:</label>
             <input type="text" placeholder="Currently Working in"/>
-            <br><br>
             
             <label>Resume:</label>
             <input type="file" id="PDF file">
-            <br><br>
 
             <label>Contact:</label>
             <input type="email" id="email" placeholder="Your Email"/> <input type="tel" placeholder="01xxxx"/>
-            <br><br>
 
-            <p><label>About:</label></p>
+            <label>About:</label>
             <textarea id="text" name="text" rows="6" cols="50" placeholder="A brief about yourself"></textarea>
-            <br><br>
         
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submit">
 
-        </Form>
-        <p>Click on the submit button to submit the form.</p><br><br>
-        <h1> <nav dir="rtl">
+        </form>
+        <p>Click on the submit button to submit the form.</p>
+        <h1> <nav>
             <iframe
            width="400"
            height="300"
