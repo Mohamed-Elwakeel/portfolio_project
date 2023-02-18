@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(106, 90, 205);
+    font-family: roboto, Helvetica, sans-serif;
+}
+
+.headline{
+    font-size: 45px;
+    text-align: center;
+    font-family: cursive, ariel;
+}
+
+nav{
+    display: inline;
+}
+
+label,iframe,#submit{
+    display: block;
+    font-weight: bold;
+}
+
+form ~ p{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+ol > li{
+    color: rgb(134, 16, 16);
+}
